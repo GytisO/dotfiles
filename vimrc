@@ -52,6 +52,8 @@ Plugin 'scrooloose/syntastic'
 let g:syntastic_python_checkers = ['flake8']
 Plugin 'klen/python-mode'
 "
+com! FormatJSON %!python -m json.tool
+
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 syntax on

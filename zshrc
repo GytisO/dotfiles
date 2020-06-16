@@ -70,7 +70,7 @@ ZSH_DISABLE_COMPFIX="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git sudo docker heroku docker-compose zsh-autosuggestions zsh-syntax-highlighting zsh-completions tmux)
 autoload -U compinit && compinit
-fpath=(path/to/zsh-completions/src $fpath)
+fpath=(/Users/gytisoziunas/.oh-my-zsh/custom/plugins/zsh-completions/src $fpath)
 
 source $ZSH/oh-my-zsh.sh
 
